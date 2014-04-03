@@ -1,6 +1,9 @@
 Create git repo in project directory:
   git init
   
+To find out current stat of repo:
+  git status
+  
 Adding READ ME to repo:
   git add README
   
@@ -33,7 +36,7 @@ Changing branch:
   
 Removing a file from Git commit:
   git rm <filename>(this also deletes file locally>
-    git rm --cached <filename>(deletes file from git, not loaclly)
+    git rm --cached <filename>(deletes file from git, not loaclly, must be commited to affect)
     
 Graphical GUI of gits of directory:
   gitk
@@ -55,6 +58,11 @@ To list configurable settings:
   
 Help with Git:
   git help <verb>
+  
+List branches:
+  git branch
+  
+
   
 
   
