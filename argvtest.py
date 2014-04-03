@@ -1,9 +1,3 @@
-#test 1
-#test 2
-#test 3
-#test 4
-
-
 from sys import argv
 
 script, user_name = argv
