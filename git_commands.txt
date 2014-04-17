@@ -1,0 +1,70 @@
+(MAKE SURE TO COMMIT FILES LOCALLY THEN PUSH TO GITHUB)
+
+Create git repo in project directory:
+  git init
+  
+To find out current stat of repo:
+  git status
+  
+Adding READ ME to repo:
+  git add README
+  
+Cloning from URL:
+  git clone <URL>
+
+Adding files to commit que:
+  git add <filename>
+  
+Committing files to current branch/master:
+  git commit (only after files have been added to que)
+  
+Rolling changes into previous commit:
+  git commit --amend
+
+Removes any potential adds that haven't been commited:
+  git reset
+  
+To create new branch:  
+  git branch <name>
+   
+   To create and switch to new branch:
+      git branch -b <newbranchname>
+
+To list all files within a commit/branch:
+  git ls-tree -r --name-only <commit/branch>
+  
+Changing branch:
+  git checkout <branch name>
+  
+Removing a file from Git commit:
+  git rm <filename>(this also deletes file locally>
+    git rm --cached <filename>(deletes file from git, not loaclly, must be commited to affect)
+    
+Graphical GUI of gits of directory:
+  gitk
+  
+Merging commits from one branch to another branch:
+  git merge <targetbranchname>
+  
+Update local copies of remote branches:
+  git fetch
+
+Updates local branch with commits present in remote branches:
+  git pull(this is the same as a git fetch followed by a git merge)
+  
+Pushing commits to host(such as github):
+  git push <remotename> <branchname>
+  
+To list configurable settings:
+  git config --list
+  
+Help with Git:
+  git help <verb>
+  
+List branches:
+  git branch
+  
+
+  
+
+  
