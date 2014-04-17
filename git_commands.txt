@@ -4,13 +4,20 @@ Create git repo in project directory:
   git init
   
 Creating Origin within repo:
+<<<<<<< HEAD
   git remote add origin /url/
+=======
+  git remote add origin /url/  
+>>>>>>> e8e0f2c3eee7a8de9837166bca807403e80465fb
   
 To find out current stat of repo:
   git status
   
 Adding READ ME to repo:
   git add README
+  
+Merghelp
+  git mergetool
   
 Cloning from URL:
   git clone <URL>
