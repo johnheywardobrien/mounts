@@ -3,7 +3,10 @@
 Create git repo in project directory:
   git init
   
-To find out current stat of repo:
+Creating Origin within repo:
+  git remote add origin /url/
+  
+  To find out current stat of repo:
   git status
   
 Adding READ ME to repo:
